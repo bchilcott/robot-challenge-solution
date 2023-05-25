@@ -75,14 +75,9 @@ export class Warehouse {
   }
 
   public isCrateAt(coordinate: Coordinate) {
-    const result = this.crates.some(
+    return this.crates.some(
       (crate) => crate.x === coordinate.x && crate.y === coordinate.y
     );
-    if (coordinate.x === 0 && coordinate.y === 1) {
-      console.log(this.crates);
-      console.log(result);
-    }
-    return result;
   }
 
   public removeCrate(coordinate: Coordinate) {
