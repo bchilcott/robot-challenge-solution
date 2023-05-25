@@ -1,0 +1,22 @@
+{
+  "name": "robot-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:ci": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@vitest/ui": "^0.31.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
+  }
+}
